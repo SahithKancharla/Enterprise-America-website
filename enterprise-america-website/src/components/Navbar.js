@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import css from "./css/Navbar.css";
+import "./css/Navbar.css";
 
 function Navbartemp() {
   return (
@@ -14,7 +14,7 @@ function Navbartemp() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <div className="space">
+          <div className="space-nav">
             <Nav className="me-auto">
               <Nav.Link href="#home">
                 <h3 className="nav-options">Home</h3>
